@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -73,14 +73,15 @@
                     android:src="@drawable/ic_user" />
 
                 <EditText
-                    android:id="@+id/mobile_num_edit"
+                    android:id="@+id/mobile"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="number"
-                    android:text="User mobile number"
+                    android:hint="User mobile number"
+                    android:textColorHint="#FFFFFF"
                     android:textColor="#FFFFFF"
                     android:textSize="18dp" />
 
@@ -102,7 +103,7 @@
                     android:src="@drawable/ic_password" />
 
                 <EditText
-                    android:id="@+id/password_edit_text"
+                    android:id="@+id/password"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="18dp"
@@ -138,7 +139,7 @@
 
 
                 <Button
-                    android:id="@+id/signup_in_login_page"
+                    android:id="@+id/registerbtn2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -149,7 +150,7 @@
                     android:textSize="12sp" />
 
                 <Button
-                    android:id="@+id/login_button"
+                    android:id="@+id/loginbtn1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -167,4 +168,4 @@
 
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

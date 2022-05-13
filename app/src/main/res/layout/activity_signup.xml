@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -89,14 +89,15 @@
                     android:src="@drawable/ic_user" />
 
                 <EditText
-                    android:id="@+id/user_name_edit"
+                    android:id="@+id/fullname"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Full Name"
+                    android:hint="Full Name"
+                    android:textColorHint="#FFFFFF"
                     android:textColor="#FFFFFF"
                     android:textSize="18dp" />
 
@@ -118,14 +119,15 @@
                     android:src="@drawable/ic_mobile" />
 
                 <EditText
-                    android:id="@+id/mobile_num_edit"
+                    android:id="@+id/mobile"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="phone"
-                    android:text="Mobile number"
+                    android:hint="Mobile number"
+                    android:textColorHint="#FFFFFF"
                     android:textColor="#FFFFFF"
                     android:textSize="18dp" />
 
@@ -147,14 +149,15 @@
                     android:src="@drawable/ic_email" />
 
                 <EditText
-                    android:id="@+id/email_edit"
+                    android:id="@+id/email"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="9dp"
                     android:backgroundTint="#FFFFFF"
                     android:ems="10"
                     android:inputType="textEmailAddress"
-                    android:text="Email Id"
+                    android:hint="Email Id"
+                    android:textColorHint="#FFFFFF"
                     android:textColor="#FFFFFF"
                     android:textSize="18dp" />
 
@@ -203,12 +206,13 @@
                     android:textSize="14dp" />
 
                 <EditText
-                    android:id="@+id/college_name_edit"
+                    android:id="@+id/college"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-44dp"
                     android:layout_marginLeft="92dp"
                     android:backgroundTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
                     android:ems="10"
                     android:inputType="textPersonName" />
 
@@ -257,16 +261,15 @@
                     android:textSize="14dp" />
 
                 <EditText
-                    android:id="@+id/branch_name_edit_text"
+                    android:id="@+id/branch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-44dp"
                     android:layout_marginLeft="92dp"
                     android:backgroundTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
                     android:ems="10"
                     android:inputType="textPersonName" />
-
-
 
             </RadioGroup>
 
@@ -286,7 +289,7 @@
                     android:src="@drawable/ic_password" />
 
                 <EditText
-                    android:id="@+id/password_edit_text"
+                    android:id="@+id/password"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -294,6 +297,7 @@
                     android:ems="10"
                     android:hint="Password"
                     android:inputType="textPassword"
+                    android:textColor="#FFFFFF"
                     android:textColorHint="#FFFFFF" />
 
             </LinearLayout>
@@ -302,12 +306,12 @@
                 android:id="@+id/buttons_container"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginTop="103dp"
+                android:layout_marginTop="248dp"
                 android:orientation="horizontal">
 
 
                 <Button
-                    android:id="@+id/login_btn_in_signup_page"
+                    android:id="@+id/loginbtn2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -318,7 +322,7 @@
                     android:textSize="12sp" />
 
                 <Button
-                    android:id="@+id/signup_btn"
+                    android:id="@+id/registerbtn1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -335,4 +339,4 @@
     </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
