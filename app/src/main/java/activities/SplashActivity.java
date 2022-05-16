@@ -1,8 +1,10 @@
 package activities;
 
 import android.content.Intent;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.studreference.R;
 
 import java.util.Timer;
@@ -21,6 +23,5 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, 2000 );
-        getSupportActionBar().hide();
     }
 }

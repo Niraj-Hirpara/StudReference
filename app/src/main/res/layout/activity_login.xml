@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +18,7 @@
             android:layout_above="@id/login_details_container"
             android:layout_marginBottom="50dp"
             android:layout_marginLeft="68dp"
-            android:src="@drawable/ic_login_screen" />
+            app:srcCompat="@drawable/ic_login_screen" />
 
         <RelativeLayout
             android:id="@+id/login_details_container"
@@ -33,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="11dp"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/ic_triangle"/>
+                app:srcCompat="@drawable/ic_triangle"/>
 
             <TextView
                 android:id="@+id/login_heading_tv"
@@ -70,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="32dp"
-                    android:src="@drawable/ic_user" />
+                    app:srcCompat="@drawable/ic_user" />
 
                 <EditText
                     android:id="@+id/mobile"
@@ -100,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="33dp"
-                    android:src="@drawable/ic_password" />
+                    app:srcCompat="@drawable/ic_password" />
 
                 <EditText
                     android:id="@+id/password"

@@ -1,14 +1,14 @@
 package activities;
 
 import android.content.Intent;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.studreference.MainActivity;
 import com.example.studreference.R;
@@ -67,6 +67,9 @@ public class LoginActivity extends AppCompatActivity {
                                 else {
                                     Toast.makeText(LoginActivity.this, "Wrong password!!", Toast.LENGTH_SHORT).show();
                                 }
+                            }
+                            else {
+                                Toast.makeText(LoginActivity.this, "Mobile number is not registered!!", Toast.LENGTH_SHORT).show();
                             }
                         }
 
